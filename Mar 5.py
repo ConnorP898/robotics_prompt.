@@ -35,7 +35,7 @@ print( )
 
 album = input("what is your favourite album? ")
 if album=="the college dropout" or album=="late registration" or album=="graduation":
-  print("same, you have good tast")
+  print("same, you have good taste")
 else:
   print("cool")
   print( )
