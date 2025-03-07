@@ -2,7 +2,7 @@ print ("SECURE LOGING")
 userName = input ( "Username > ")
 password = input ("Password > ")
 if userName == "mark" and password == "password":
-  print ("Welcome Mark!")
+  print ("Welcome, Mark!")
 elif userName == "connor" and password == "Password":
   print("Hey there Connor!")
 else: 
@@ -17,7 +17,7 @@ elif username == "suzanne":
   print("Hey there Suzanne!")
 else:
   print("Go away!")
-  ## the problem was that the elif statement was after the esle statement ##
+  ## The problem was that the else statement was after the esle statement. ##
 
 ## Fixing Code ##
 season = input("what is your favorite season?")
@@ -31,7 +31,7 @@ elif season == "winter":
   print("Stay warm by the fire and watch the snow fall.")
 else: 
   print("I don't know that season. Please try again.")
-  ## the code didn't have proper indentatiion, quotations, and the "==" ##
+  ## The code didn't have proper indentation, quotations, and the "==" ##
 
 ## Day 6 Challenge ##
 print("SECURE LOGIN")
@@ -42,3 +42,10 @@ if username == "connor" and password == "password":
   print( )
   print("\033[32mCORRECT\033[0m")
   print("Welcome Connor!")
+elif username == "mark" and password == "Replit":
+  print( )
+  print("\033[32mCORRECT\033[0m")
+  print("Welcome mark!")
+else: 
+  print( )
+  print("\033[31mINCORRECT\033[0m")
